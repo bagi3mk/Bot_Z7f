@@ -1,0 +1,56 @@
+{
+  "name": "Z7f",
+  "description": "Bot a7f Taster",
+  "keywords": [
+    "telegram",
+    "taster",
+    "arab",
+    "bots",
+    "userbot",
+    "3",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/bagi3mk/a7f_bot_taster",
+  "success_url": "https://instagram.com/gqgo",
+  "website": "https://instagram.com/gqgo",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable env mode",
+      "value": "ANYTHING"
+    },
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "1062407"
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "9d60b616b7078456a6549a98f3896ac7"
+    },
+    "Channel_Stor": {
+      "description": "القناة الي ياخذ منها سطور ، يوزر القناة بدون علامة @",
+      "value": "ANYTHING"
+        },
+    "Time_Sleep": {
+      "description": "السليب او التوقيت بين كل سطر ينزله",
+      "value": "ANYTHING"
+         },
+    "Session_string": {
+      "description": "كود التيرمكس بايروقرام او pyrogram",
+      "value": "ANYTHING"
+    }
+  },
+  "addons": [],
+  "buildpacks": [{
+    "url": "https://github.com/bagi3mk/a7f_bot_taster"
+  }, {
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
