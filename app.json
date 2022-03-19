@@ -13,8 +13,8 @@
     "productivity"
   ],
   "repository": "https://github.com/bagi3mk/Bot_Z7f",
-  "success_url": "https://instagram.com/gqgo",
-  "website": "https://instagram.com/gqgo",
+  "success_url": "https://github.com/bagi3mk/Bot_Z7f",
+  "website": "https://github.com/bagi3mk/Bot_Z7f",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env mode",
