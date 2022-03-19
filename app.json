@@ -43,7 +43,7 @@
   },
   "addons": [],
   "buildpacks": [{
-    "url": "https://github.com/bagi3mk/Bot_Z7f"
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
   }, {
     "url": "heroku/python"
   }],
